@@ -24,6 +24,7 @@
     "alertifyjs": "^1.13.1",
     "bootstrap": "^4.6.0",
     "bootswatch": "^4.5.3",
+    "classlist.js": "^1.1.20150312",
     "font-awesome": "^4.7.0",
     "ng2-file-upload": "^1.4.0",
     "ngx-bootstrap": "^6.2.0",
