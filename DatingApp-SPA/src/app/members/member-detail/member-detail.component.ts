@@ -31,7 +31,7 @@ export class MemberDetailComponent implements OnInit {
       }
     ];
     this.galleryImages = this.getImages();
-    // this.loadUser();
+    //this.loadUser();
   }
 
   getImages() {
