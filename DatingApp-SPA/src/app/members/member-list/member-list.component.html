@@ -1,7 +1,7 @@
 <div class="text-center mt-3">
   <h2>Your matches - {{pagination.totalItems}} found</h2>
 </div>
-<form class="form-inline" novalidate>
+<form class="form-inline ml-5 mt-5" novalidate>
   <div class="form-group">
     <label for="minAge">Age From</label>
     <input type="number" class="form-control ml-1" style="width: 70px" id="minAge" name="minAge" 
@@ -35,7 +35,7 @@
   </div>  
 </form>
 <br>
-<div class="ng-container mt-5">
+<div class="ng-container ml-5 mt-4">
   <div class="row">
     <div *ngFor="let user of users" class="col-lg-2 col-md-3 col-sm-6">
       <app-member-card [user]="user"></app-member-card>
